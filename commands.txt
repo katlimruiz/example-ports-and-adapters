@@ -1,0 +1,7 @@
+mvn compile
+mvn test
+mvn package
+java -jar target/archex-vanilla-1.0-SNAPSHOT-jar-with-dependencies.jar
+
+# compile and run
+mvn compile exec:java
